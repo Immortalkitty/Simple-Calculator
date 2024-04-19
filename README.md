@@ -10,35 +10,21 @@ The program is written in C# .NET Framework 6.0 in the Visual Studio 2022 enviro
 
 ## Project Description
 
-The application made is a calculator with a clock function. The application allows you to perform 
-basic mathematical operations such as addition, subtraction, multiplication, 
-division, multiplication, multiplication of opposite numbers. The numbers stored in the operations can be 
-floating point, negative. If you make a mistake, you can delete the entered character 
-or clear the calculator screen completely. The application shows the current time on a clock 
-digital or analog clock. The user of the application can operate the calculator using the 
-mouse or keyboard. There is a button in the application that causes the display of 
-additional information-hints on how to use it. Throughout the program's operation 
-a list is also available, with which you can change the appearance of the application. The high 
-configurability of the calculator is affected by the ability to choose a digital or analog clock
-for displaying the current time, and the ability to change the calculator skin to one of the 
-of three prepared sets or "custom" by choosing the calculator's color scheme and the 
-font family used in the application.
+The application is a calculator with an integrated clock function. It supports basic mathematical operations, including addition, subtraction, multiplication, division, and multiplication of opposite numbers. Users can input floating-point numbers and negative values. If an error is made, the user has the option to delete the last entered character or to clear the entire calculator screen.
+
+The application also displays the current time, offering both digital and analog clock options. Users can interact with the calculator using either the mouse or keyboard. A dedicated button within the application reveals additional tips on how to effectively utilize it.
+
+Throughout its operation, users can access a list to customize the appearance of the application. This high level of configurability includes choosing between a digital or analog display for the time, and selecting from one of three predefined appearance sets or creating a "custom" look by choosing the calculator's color scheme and the font family used throughout the application.
 
 ## Interface Description
 
-The "Info"-button triggers the display of a window in which tips on how to use the application are stored.
-There is a list, from which you can invoke a change in the appearance of the calculator to one of the 
-of the following options:
-1. Deafult- appearance loaded when the application is launched. 
-2. Digital- change font; colors of buttons, labels, background; appearance of PictureBox with a 
-picture of a duckling that displays a message when pressed.
-3. Cat- change of font; colors of buttons, labels, background; appearance of PictureBox with a picture of a 
-picture of a cat, which when pressed displays a message. 
-4. Custom - selecting this option initiates the display of the ColorDialog window, the color selected in it 
-color changes the color of the buttons and the background. Then the FontDialog is displayed, from which the 
-information is retrieved what font family the user has selected, it is 
-used in the program.
-One click on the clock toggles it between analog and digital style.
+Clicking the "Info" button opens a window containing tips for using the application. Below is a list from which you can select to change the appearance of the calculator to one of the following options:
+
+Default: The appearance that is loaded when the application is launched.
+Digital: Changes the font, button colors, label colors, and background. Includes a PictureBox featuring a duckling image that displays a message when pressed.
+Cat: Alters the font, button colors, label colors, and background. Features a PictureBox with a cat image that displays a message when pressed.
+Custom: Selecting this option triggers the display of the ColorDialog window, where the selected color is used for the buttons and background. Afterwards, the FontDialog is displayed to choose a font family, which is then applied throughout the program.
+A single click on the clock toggles it between analog and digital styles.
 
 | ![Default Skin](ReadmeImages/DefaultSkin.png) | ![Cat theme Skin](ReadmeImages/CatThemeSkin.png) |
 |:-----------------------:|:-----------------------:|
